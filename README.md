@@ -18,3 +18,11 @@ Use this as a starting point to complete the WDD 330 team activity: the SleepOut
 - `npm run build` to build final files when you are ready to turn in.
 - `npm run lint` to run ESLint against your code to find errors.
 - `npm run format` to run Prettier to automatically format your code.
+
+# Website
+This respository contains the code for Sleep Putside project.
+
+## Deployment
+
+The project is deployed and can be accessed at:
+[Live Site](https://main--friendly-mandazi-173f30.netlify.app/)
