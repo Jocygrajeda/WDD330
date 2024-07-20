@@ -4,10 +4,10 @@ import { defineConfig } from "vite";
 export default defineConfig({
   root: "src/",
 
-  server: {
-    host: 'localhost',
-    port: 8080,
-  },
+  //server: {
+  //  host: 'localhost',
+   // port: 8080,
+ // },
 
   build: {
     outDir: "../dist",
@@ -17,7 +17,8 @@ export default defineConfig({
         main: resolve(__dirname, "src/index.html"),
         cart: resolve(__dirname, "src/cart/index.html"),
         product: resolve(__dirname, "src/product_pages/index.html"),
-        
+        listing: resolve(__dirname, "src/product-listing/index.html"),
+        checkout: resolve(__dirname, "src/checkout/index.html"),
       },
     },
   },
